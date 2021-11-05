@@ -127,7 +127,7 @@ THE SOFTWARE.*/
                 var rows = table.find('tr').not(options.ignoreRows);
 
                 var numCols = rows.first().find("td,th").not(options.ignoreColumns).length;
-
+//有更改過，改成下拉選單選中的值
                 rows.each(function() {
                     $(this).find("td,th").not(options.ignoreColumns)
                         .each(function(i, col) {
